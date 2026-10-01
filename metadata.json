@@ -1,0 +1,6 @@
+{
+  "name": "Recetario de la Abuela - Cultura, Familia y Quién Cocina",
+  "description": "Cuaderno gastronómico familiar: recetas patrimoniales, secretos de la abuela, memorias de sobremesa y organizador interactivo de quién cocina en casa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FAF7F2;
+    color: #262320;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Playfair Display', Georgia, Cambria, serif;
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive, sans-serif;
+}
+
+/* Subtle archival paper background styling */
+.paper-texture {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(#E5DBCF 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}
+
+.card-paper {
+  background-color: #FFFFFF;
+  border: 1px solid #EBE4DA;
+  box-shadow: 0 4px 20px -2px rgba(44, 38, 30, 0.04);
+}
+
+.recipe-border {
+  border-color: #E8E0D5;
+}
+
+/* Print styling for printing grandma recipe cards */
+@media print {
+  nav, button, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
